@@ -15,7 +15,7 @@ export default function IdDigital() {
     cpf: '521.503.528-85',
     nascimento: '02/04/2000',
     rg: '50.521.329-6',
-    foto: '/perfil.png',
+    foto: '/fiapp/perfil.png',
   };
 
   return (

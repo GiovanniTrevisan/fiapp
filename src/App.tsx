@@ -14,13 +14,13 @@ import './App.css'
 
 function getPageTitle(pathname: string) {
   switch (pathname) {
-    case '/': return 'Home';
-    case '/aulas': return 'Aulas';
-    case '/avisos': return 'Avisos';
-    case '/material': return 'Material de Apoio';
-    case '/notas-faltas': return 'Notas e Faltas';
-    case '/trabalhos': return 'Trabalhos';
-    case '/id-digital': return 'ID Digital';
+    case '/fiapp/': return 'Home';
+    case '/fiapp/aulas': return 'Aulas';
+    case '/fiapp/avisos': return 'Avisos';
+    case '/fiapp/material': return 'Material de Apoio';
+    case '/fiapp/notas-faltas': return 'Notas e Faltas';
+    case '/fiapp/trabalhos': return 'Trabalhos';
+    case '/fiapp/id-digital': return 'ID Digital';
     default: return '';
   }
 }
@@ -50,12 +50,12 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/aulas" element={<Aulas />} />
-          <Route path="/avisos" element={<Avisos />} />
-          <Route path="/material" element={<Material />} />
-          <Route path="/notas-faltas" element={<NotasFaltas />} />
-          <Route path="/trabalhos" element={<Trabalhos />} />
-          <Route path="/id-digital" element={<IdDigital />} />
+          <Route path="/fiapp/aulas" element={<Aulas />} />
+          <Route path="/fiapp/avisos" element={<Avisos />} />
+          <Route path="/fiapp/material" element={<Material />} />
+          <Route path="/fiapp/notas-faltas" element={<NotasFaltas />} />
+          <Route path="/fiapp/trabalhos" element={<Trabalhos />} />
+          <Route path="/fiapp/id-digital" element={<IdDigital />} />
         </Routes>
       </main>
     </div>

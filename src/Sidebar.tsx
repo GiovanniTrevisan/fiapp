@@ -7,6 +7,7 @@ import {
   BriefcaseIcon,
   IdentificationIcon
 } from '@heroicons/react/24/outline'
+import { Link } from 'react-router-dom';
 
 interface SidebarProps {
   open: boolean;
@@ -35,39 +36,39 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
         </div>
         <ul className="p-4 space-y-4">
           <li>
-            <a href="/" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
+            <Link to="/" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
               <HomeIcon className="w-6 h-6" /> Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/aulas" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
+            <Link to="/fiapp/aulas" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
               <BookOpenIcon className="w-6 h-6" /> Aulas
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/avisos" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
+            <Link to="/fiapp/avisos" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
               <BellIcon className="w-6 h-6" /> Avisos
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/material" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
+            <Link to="/fiapp/material" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
               <DocumentTextIcon className="w-6 h-6" /> Material de Apoio
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/notas-faltas" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
+            <Link to="/fiapp/notas-faltas" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
               <ClipboardIcon className="w-6 h-6" /> Notas e Faltas
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/trabalhos" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
+            <Link to="/fiapp/trabalhos" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
               <BriefcaseIcon className="w-6 h-6" /> Trabalhos
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/id-digital" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
+            <Link to="/fiapp/id-digital" className="flex items-center gap-3 text-gray-700 dark:text-gray-200">
               <IdentificationIcon className="w-6 h-6" /> Id Digital
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
