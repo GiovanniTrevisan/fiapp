@@ -3,6 +3,7 @@
   "short_name": "FIAPP",
   "start_url": ".",
   "display": "fullscreen",
+  "orientation": "portrait",
   "background_color": "#242424",
   "theme_color": "#242424",
   "description": "FIAPP - Carteirinha Digital e Portal do Aluno",
