@@ -82,13 +82,13 @@ export default function IdDigital() {
                 </div>
             </div>
           </div>
-          <button className="absolute top-[-8px] right-[-20px] z-10" title="Virar carteirinha" onClick={() => setFlipped(f => !f)}>
+          <button className="absolute top-[-10px] right-[-20px] z-10" title="Virar carteirinha" onClick={() => setFlipped(f => !f)}>
             <ArrowPathRoundedSquareIcon className="w-6 h-6 text-rose-500" />
           </button>
-          <button className="absolute top-[-8px] right-[20px] z-10" title="Fullscreen" onClick={() => setIsFullscreen(f => !f)}>
+          <button className="absolute top-[-10px] right-[30px] z-10" title="Fullscreen" onClick={() => setIsFullscreen(f => !f)}>
             <ArrowsPointingOutIcon className="w-6 h-6 text-rose-500" />
           </button>
-          <button className="absolute top-[-8px] right-[60px] z-10" title="QR Code" onClick={() => setShowQR(true)}>
+          <button className="absolute top-[-10px] right-[80px] z-10" title="QR Code" onClick={() => setShowQR(true)}>
             <QrCodeIcon className="w-6 h-6 text-rose-500" />
           </button>
         </div>
