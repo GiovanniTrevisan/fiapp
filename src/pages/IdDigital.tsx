@@ -28,7 +28,7 @@ export default function IdDigital() {
         className="relative w-[450px] h-[250px] bg-[#0c0c0c] rounded-xl shadow-lg p-4 flex gap-4 border-1 border-[#262626]"
         style={{
           transform: isFullscreen
-            ? `rotateZ(90deg) scale(1.45) translateX(-11px)`
+            ? `rotateZ(90deg) scale(1.5) translateX(2px)`
             : `rotateZ(90deg) scale(1)`,
           perspective: '1000px',
           transition: 'transform 0.3s',
